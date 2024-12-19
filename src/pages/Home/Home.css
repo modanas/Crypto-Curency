@@ -3,7 +3,7 @@
  padding: 0px 100px;
 }
 .hero {
- max-width: 600px;
+ max-width: 700px;
  margin: 80px auto;
  display: flex;
  flex-direction: column;
@@ -93,7 +93,7 @@
   display: none;
  }
 }
-@media (max-width : 600px) {
+@media (max-width : 500px) {
   .table-layout div img {
    width: 25px;
   }
@@ -102,5 +102,30 @@
   }
   .hero form input {
     width: 100px;
+  }
+  .crypto-table {
+    max-width: 500px;
+    padding: 0 0;
+   }
+  .hero form button {
+    padding: 10px 10px;
+  }
+}
+@media (max-width : 600px) {
+  .crypto-table {
+    max-width: 500px;
+    padding: 0 0;
+   }
+  .table-layout div img {
+   width: 25px;
+  }
+  .table-layout {
+    font-size: 13px;
+  }
+  .hero form input {
+    width: 110px;
+  }
+  .hero form button {
+    padding: 10px 10px;
   }
 }

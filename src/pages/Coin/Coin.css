@@ -57,3 +57,19 @@
 .coin-info ul li:last-child {
  font-weight: 300;
 }
+@media (max-width : 600px) {
+ .coin-info {
+  max-width: 400px;
+ }
+ .coin-chart {
+  width: 500px;
+ }
+}
+@media (max-width : 500px) {
+ .coin-info {
+  max-width: 300px;
+ }
+ .coin-chart {
+  width: 400px;
+ }
+}
