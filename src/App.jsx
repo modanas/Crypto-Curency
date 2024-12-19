@@ -2,7 +2,7 @@ import Navbar from './components/Navbar/Navbar'
 import { Route, Routes } from 'react-router-dom'
 import Home from "./pages/Home/Home.jsx";
 import Coin from "./pages/Coin/Coin.jsx";
-import Footer from './components/Navbar/Footer/Footer.jsx';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
   return (
