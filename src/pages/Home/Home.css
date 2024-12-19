@@ -94,6 +94,10 @@
  }
 }
 @media (max-width : 500px) {
+  .hero h1 {
+   font-size: 30px;
+   /* padding: 0 10px; */
+  }
   .table-layout div img {
    width: 25px;
   }

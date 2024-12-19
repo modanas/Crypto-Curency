@@ -15,7 +15,7 @@
 
 @keyframes rotate {
  100% {
-  transform : rotate(360deg);
+  transform: rotate(360deg);
  }
 }
 .coin {
@@ -31,6 +31,8 @@
 }
 .coin-name img {
  max-width: 100px;
+ width: 100%; /* Ensure it scales responsively */
+ height: auto; /* Maintain aspect ratio */
 }
 .coin-name p b {
  font-size: 44px;
@@ -51,25 +53,32 @@
  display: flex;
  justify-content: space-between;
  padding: 10px 0;
- border-bottom : 1px solid #5f5d5f;
+ border-bottom: 1px solid #5f5d5f;
  list-style: none;
 }
 .coin-info ul li:last-child {
  font-weight: 300;
 }
-@media (max-width : 600px) {
+
+@media (max-width: 600px) {
  .coin-info {
   max-width: 400px;
  }
  .coin-chart {
-  width: 500px;
+  width: 90%; /* Make the chart take the full width */
+ }
+ .coin-name img {
+  max-width: 80px; /* Reduce the image size */
  }
 }
-@media (max-width : 500px) {
+@media (max-width: 500px) {
  .coin-info {
   max-width: 300px;
  }
  .coin-chart {
-  width: 400px;
+  width: 90%; /* Ensure full responsiveness */
+ }
+ .coin-name img {
+  max-width: 60px; /* Further reduce image size */
  }
 }

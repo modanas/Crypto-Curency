@@ -18,7 +18,7 @@ const LineChart = ({ historicalData }) => {
 
   return (
     <div>
-      <Chart chartType="LineChart" width="100%" height="100%" data={data} />
+      <Chart chartType="LineChart" height="100%" data={data} legendToggle/>
     </div>
   )
 }
